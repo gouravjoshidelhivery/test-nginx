@@ -111,7 +111,7 @@ spec:
     - host: 
       http:
         paths:
-          - path: /
+          - path: /gowebapp
             backend:
               serviceName: goweb-app
               servicePort: 8080
