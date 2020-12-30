@@ -46,7 +46,7 @@ spec:
         - name: MYSQL_DATABASE
           value: employeedb
           
- ---
+---
 apiVersion: v1
 kind: Service
 metadata:
@@ -97,7 +97,7 @@ spec:
           name: http
           protocol: TCP
           
- ---
+---
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
